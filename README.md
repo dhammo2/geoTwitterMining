@@ -23,7 +23,7 @@ The code also links with the Flickr API to identify the geographic bounding boxe
 5. Enter the following command
 
 ```python
-python start-mining.py --locationID #1 -- request #2 --credJSON #3
+python start-mining.py --locationID #1 --request #2 --credJSON #3
 ```
 where:
 \#1 is the WOEID for the region of interest.
@@ -32,7 +32,7 @@ where:
 
 For example, to listen for tweets from London UK you would call the following:
 ```python
-python start-mining.py --locationID 44418 -- request stream --credJSON credentials.json
+python start-mining.py --locationID 44418 --request stream --credJSON credentials.json
 ```
 
 ## Citing This Package
