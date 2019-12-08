@@ -23,12 +23,12 @@ The code also links with the Flickr API to identify the geographic bounding boxe
 5. Enter the following command
 
 ```python
-python start-mining.py --locationID #1 --request #2 --credJSON #3
+python start-mining.py --locationID <?1> --request <?2> --credJSON <?3>
 ```
 where:
-\#1 is the WOEID for the region of interest.
-\#2 is a choice of `trends` to obtain the current top 50 trends for the specified locationID or `stream` to listen on the API and save tweets as they become available.
-\#3 is the filepath/name of the credentials JSON file.
+- locationID (<?1>) is the WOEID for the region of interest.
+- request (<?2>) is a choice of `trends` to obtain the current top 50 trends for the specified locationID or `stream` to listen on the API and save tweets as they become available.
+- credJSON (<?3>) is the filepath/name of the credentials JSON file.
 
 For example, to listen for tweets from London UK you would call the following:
 ```python
