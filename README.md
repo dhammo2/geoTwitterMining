@@ -3,7 +3,7 @@
 
 ## Description
 
-This code utilises the twitter API to obtain information on a given geographical region. The code has two main functionalities: obtaining the top 50 trends in a given region (single run), and listening on the twitter API to obtain tweets as they are posted (continuous run).
+This code utilises the twitter API to obtain information on a given geographical region. The code has two main functionalities: obtaining the top 50 trends in a given region (single run - designed to run on a cronjob at 5 minute intervals as this is how long trends stay stagnant for), and listening on the twitter API to obtain tweets as they are posted (continuous run).
 
 The code also links with the Flickr API to identify the geographic bounding boxes (longitude and latitude pairs) of a given WOEID.
 
