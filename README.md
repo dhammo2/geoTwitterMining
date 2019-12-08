@@ -16,7 +16,7 @@ The code also links with the Flickr API to identify the geographic bounding boxe
 
 ## Setup
 
-1. Download all files in the `code` sub-directory of this repository.
+1. Download all files in the `./code/` sub-directory of this repository.
 2. Run the `geoTwitterMining.sql` file to create the appropriate database.
 3. Edit the `credentials.json` file, replacing the empty quotes with your authentication details.
 4. Open the command prompt and move to the relevant directory.
