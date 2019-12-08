@@ -35,8 +35,8 @@ For example, to listen for tweets from London UK you would call the following:
 python start-mining.py --locationID 44418 --request stream --credJSON credentials.json
 ```
 
-## Citing This Package
-Please accredit this package by citing the following in your references. 
+## Citing This Code
+Please accredit this code by citing the following in your references. 
 
 ```
 @phdthesis{hammocks_2019, title={Horizon Scanning Through Computer-Automated Information Prioritisation}, author={Hammocks, Daniel}, year={2019}}
