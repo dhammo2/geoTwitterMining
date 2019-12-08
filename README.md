@@ -22,7 +22,7 @@ The code also links with the Flickr API to identify the geographic bounding boxe
 4. Open the command prompt and move to the relevant directory.
 5. Enter the following command
 
-```python
+```
 python start-mining.py --locationID <?1> --request <?2> --credJSON <?3>
 ```
 where:
@@ -31,7 +31,7 @@ where:
 - credJSON (<?3>) is the filepath/name of the credentials JSON file.
 
 For example, to listen for tweets from London UK you would call the following:
-```python
+```
 python start-mining.py --locationID 44418 --request stream --credJSON credentials.json
 ```
 
